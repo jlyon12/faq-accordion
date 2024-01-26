@@ -85,14 +85,20 @@ img {
     font-weight: var(--fw-semibold);
 }
 
+
+
+.accordion-container__header .img-wrapper {
+    max-width: 24px
+}
+
 @media screen and (min-width:768px) {
     .accordion-container__header {
         font-size: 32px;
     }
-}
 
-.accordion-container__header .img-wrapper {
-    max-width: 24px
+    .accordion-container__header .img-wrapper {
+        max-width: 40px
+    }
 }
 
 .accordion-container__list {
