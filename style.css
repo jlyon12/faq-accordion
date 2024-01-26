@@ -121,11 +121,12 @@ img {
     font-weight: var(--fw-semibold);
     font-size: var(--fs-400);
     color: inherit;
-    text-decoration: none;
-
+    background-color: inherit;
+    border: 1px solid transparent
 }
 
-.accordion-container__list__item__heading:hover {
+.accordion-container__list__item__heading:hover,
+.accordion-container__list__item__heading:focus {
     color: var(--clr-accent-300)
 }
 
