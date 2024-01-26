@@ -118,11 +118,13 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font: inherit;
     font-weight: var(--fw-semibold);
     font-size: var(--fs-400);
     color: inherit;
     background-color: inherit;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    text-align: left;
 }
 
 .accordion-container__list__item__heading:hover,
