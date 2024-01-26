@@ -169,6 +169,12 @@ img {
 }
 
 .attribution {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
     font-size: 11px;
     text-align: center;
 }
